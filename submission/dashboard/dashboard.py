@@ -6,7 +6,7 @@ import streamlit as st
 sns.set(style='dark')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-df_time = pd.read_csv("https://raw.githubusercontent.com/Rakishu02/Bike-Sharing/6dcb5ee8483570e6abdf57f0c88320b24d840770/main_data.csv")
+df_time = pd.read_csv("https://github.com/Rakishu02/Bike-Sharing/raw/2eb3901cf2f568f239aa4f7ee8427b7a2c48d67b/submission/dashboard/main_data.csv")
 df_time['dteday'] = pd.to_datetime(df_time['dteday'])
 
 
